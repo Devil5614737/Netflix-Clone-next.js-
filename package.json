@@ -1,0 +1,25 @@
+{
+  "name": "netflix-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@splidejs/react-splide": "^0.7.5",
+    "firebase": "^9.6.11",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-slick": "^0.28.1",
+    "sharp": "^0.30.4",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
