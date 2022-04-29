@@ -21,7 +21,7 @@ module.exports = {
         "gray-dark": "#273444",
         gray: "#8492a6",
         "gray-light": "#d3dce6",
-        gray2:"#5d5d5d",
+        gray2: "#5d5d5d",
       },
       backgroundImage: {
         "hero-pattern":
@@ -29,9 +29,9 @@ module.exports = {
         "login-background":
           "url('https://assets.nflxext.com/ffe/siteui/vlv3/8459cea4-79ab-4f27-9ef0-a7c92a30a9bb/6defa446-a465-465d-9975-d2ec35582ebe/IN-en-20220411-popsignuptwoweeks-perspective_alpha_website_small.jpg')",
         "footer-texture": "url('/img/footer-texture.png')",
-        "nav": "linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0))",
-        "hero": "linear-gradient(77deg,rgba(0, 0, 0, 0.6) 0,rgba(0, 0, 0, 0) 85%)",
-        "home": "linear-gradient(to top, rgba(0, 0, 0, 0.9) 0px, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%)",
+        nav: "linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0))",
+        hero: "linear-gradient(77deg,rgba(0, 0, 0, 0.6) 0,rgba(0, 0, 0, 0) 85%)",
+        home: "linear-gradient(to top, rgba(0, 0, 0, 0.9) 0px, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%)",
       },
       backgroundColor: {
         transparent: "rgba(255, 255, 255, .25)",
@@ -41,17 +41,16 @@ module.exports = {
         inputFocus: "#464545",
         "login-overlay": "rgba(0,0,0,.7)",
         hr: "#222222",
-        btn:"#505152",
-        bar:'#303030'
-
-        
+        btn: "#505152",
+        bar: "#303030",
+        lg: "rgba(1,1,1,.7)",
       },
       height: {
         xs: "100vh",
         sm: "70px",
         full: "100%",
         card: "400px",
-        h:'150px'
+        h: "150px",
       },
       width: {
         xs: "100vw",
@@ -60,9 +59,9 @@ module.exports = {
         xxl: "300px",
         logo: "95px",
         card: "400px",
-        w:'150px',
-        bw:"800px",
-        fw:"71%"
+        w: "150px",
+        bw: "800px",
+        fw: "71%",
       },
       fontSize: {
         xs: ".75rem",
@@ -89,8 +88,8 @@ module.exports = {
       },
       margin: {
         "margin-top": "-20px",
-        "mtop": "-191px",
-        "mt": "14rem",
+        mtop: "-191px",
+        mt: "14rem",
       },
       zIndex: {
         index: "9999",
@@ -113,7 +112,7 @@ module.exports = {
         xl: "1.1",
       },
       media: {
-        "max-w-sm": "24rem" ,
+        "max-w-sm": "24rem",
         "max-w-full": "100%",
         "max-w-min": "min-content",
         "max-w-max": "max-content",
@@ -125,11 +124,17 @@ module.exports = {
         "max-w-screen-xl": "1280px",
         "max-w-screen-2xl": "1536px",
       },
-      padding:{
-        sm:'4%'
+      padding: {
+        sm: "4%",
       },
-      invert:{
-        'i':'-1'
+      invert: {
+        i: "-1",
+      },
+      top:{
+        t:'-50%'
+      },
+      left:{
+        l:'-50%'
       }
     },
   },

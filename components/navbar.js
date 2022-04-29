@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
@@ -52,9 +53,11 @@ const handleLogout=()=>{
             ></path>
           </g>
         </svg>
-        <a className="text-2xl text-white font-semibold mr-9" href="#">
-          Home
-        </a>
+        <Link href='/home'>
+          <a className="text-2xl text-white font-semibold mr-9" href="#">
+            Home
+          </a>
+        </Link>
         <a className="text-2xl text-white font-semibold mr-9 hidden md:block" href="#">
           Series
         </a>
@@ -64,9 +67,11 @@ const handleLogout=()=>{
         <a className="text-2xl text-white font-semibold mr-9 hidden md:block" href="#">
           New & Popular
         </a>
-        <a className="text-2xl text-white font-semibold mr-9 " href="#">
-          My List
-        </a>
+        <Link href='/mylist'>
+          <a className="text-2xl text-white font-semibold mr-9 " href="#">
+            My List
+          </a>
+        </Link>
         <a className="text-2xl text-white font-semibold mr-9 hidden md:block" href="#">
           Audio & Subtitles
         </a>

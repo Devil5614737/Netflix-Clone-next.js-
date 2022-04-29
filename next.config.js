@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['image.tmdb.org','assets.nflxext.com','occ-0-4409-3647.1.nflxso.net','localhost'],
+    domains: ['image.tmdb.org','assets.nflxext.com','occ-0-4409-3647.1.nflxso.net','localhost','images.unsplash.com'],
   },
   eslint: {
     // Warning: This allows production builds to successfully complete even if
