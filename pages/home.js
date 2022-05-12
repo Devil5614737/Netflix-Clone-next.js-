@@ -132,7 +132,7 @@ function home({ movies, movies2, movies3, movies4, movies5, movies6 }) {
                 rewind: true,
                 breakpoints: {
                   640: {
-                    height: "13rem",
+                    height: "40rem",
                     perPage: 2,
                   },
                 },

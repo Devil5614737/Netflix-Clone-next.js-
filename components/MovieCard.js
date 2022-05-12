@@ -5,7 +5,7 @@ import Image from "next/image";
 const MovieCard = ({img,width,height,data,handleAdd,...props}) => {
 
     return ( 
-        <div className="group aspect-video object-cover relative hover:before:w-full  hover:before:h-full hover:before:bg-lg hover:before:absolute hover:before:z-20 hover:before:left-0 hover:before:top-0 hover:cursor-pointer">
+        <div className=" group aspect-video object-cover relative hover:before:w-full  hover:before:h-full hover:before:bg-lg hover:before:absolute hover:before:z-20 hover:before:left-0 hover:before:top-0 hover:cursor-pointer">
             <Image  width={width}  height={height}  src={img} alt="" objectFit="cover" objectPosition='center' className=' cursor-pointer '/>
             <div className=" text-white text-2xl absolute -bottom-6 left-5 opacity-0 flex group-hover:opacity-100 group-hover:bottom-12 group-hover:z-index transition-all">
                 <div className="w-16 h-16 cursor-pointer  bg-white rounded-full grid place-items-center items-center mr-5 ">
