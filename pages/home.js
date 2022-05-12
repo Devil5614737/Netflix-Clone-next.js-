@@ -63,8 +63,9 @@ function home({ movies, movies2, movies3, movies4, movies5, movies6 }) {
 
   return (
     <>
+     <Navbar />
       <header>
-        <Navbar />
+       
         <div className="w-xs h-xs before:w-full before:h-full before:bg-hero before:absolute before:z-20 before:left-0 before:top-0 ">
           <Image
             className=""
