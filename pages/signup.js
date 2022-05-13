@@ -2,21 +2,27 @@ import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../config/firebase";
+import { css } from "@emotion/react";
+import PulseLoader from "react-spinners/PulseLoader";
 
 function signup() {
   const router = useRouter();
+  const[isLoading,setIsLoading]=useState(false)
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const signup = async () => {
+    setIsLoading(true)
     try {
       const user = await createUserWithEmailAndPassword(auth, email, password);
       if (user) {
+         setIsLoading(false)
         alert("account created");
         router.push("/login");
         return;
       }
     } catch (error) {
+      setIsLoading(false)
       if (error) window.alert("Invalid credentials");
     }
   };
@@ -67,7 +73,7 @@ function signup() {
                 onClick={signup}
                 className="cursor-pointer rounded-md bg-netflix w-full text-white font-semibold text-3xl p-3"
               >
-                Sign Up
+                {isLoading? <PulseLoader color='white' loading='true'  size={15} />:"Sign Up"} 
               </button>
             </div>
           </div>

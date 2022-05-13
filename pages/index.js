@@ -58,7 +58,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col md:flex-row  mt-5">
               <input
-                className="text-3xl block  w-full  h-24 focus:outline-none text-black md:w-input"
+                className="p-3 text-3xl block  w-full  h-24 focus:outline-none text-black md:w-input"
                 type="text"
                 placeholder="Email address"
               />
@@ -96,7 +96,7 @@ export default function Home() {
               Enjoy on your TV.
             </p>
             <p
-              className="text-white  text-3xl  max-w-2xl
+              className="m-auto  text-white text-3xl  max-w-2xl
           text-center mt-5 md:text-4xl md:mt-0"
             >
               Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
@@ -120,12 +120,12 @@ export default function Home() {
           </div>
           {/* text-white font-bold text-4xl text-center md:text-7xl */}
           <div className=" mt-12">
-            <p className="text-white font-bold text-4xl md:odd:max-w-xsm leading-xl md:text-7xl text-center  md:text-left ">
+            <p className="text-white font-bold text-4xl md:odd:max-w-xsm leading-xl md:text-7xl text-center  md:text-left  ">
               Download your shows to watch offline.
             </p>
             <p
-              className="text-white  text-3xl  max-w-2xl
-          text-center mt-5 md:text-4xl md:mt-0 md:text-left"
+              className="m-auto text-white  text-3xl  max-w-2xl
+          text-center mt-5 md:text-4xl md:mt-0 md:text-left md:m-0"
             >
               Save your favourites easily and always have something to watch.
             </p>
@@ -143,9 +143,9 @@ export default function Home() {
               Watch everywhere.
             </p>
             <p
-              className="text-white  text-3xl  max-w-2xl
+              className="m-auto text-white  text-3xl  max-w-2xl
           text-center mt-5 md:text-4xl md:mt-0"
-            >
+          m-auto>
               Stream unlimited movies and TV shows on your phone, tablet,
               laptop, and TV.
             </p>
@@ -166,8 +166,8 @@ export default function Home() {
               Create profiles for children.
             </p>
             <p
-              className="text-white  text-3xl  max-w-2xl
-          text-center mt-5 md:text-4xl md:mt-0 md:text-left "
+              className="m-auto text-white  text-3xl  max-w-2xl
+          text-center mt-5 md:text-4xl md:mt-0 md:text-left md:m-0 "
             >
               Send children on adventures with their favourite characters in a
               space made just for them—free with your membership.
@@ -223,7 +223,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col md:flex-row  mt-5">
           <input
-            className="text-3xl block  w-full  h-24 focus:outline-none text-black md:w-input"
+            className="p-3 text-3xl block  w-full  h-24 focus:outline-none text-black md:w-input"
             type="text"
             placeholder="Email address"
           />
