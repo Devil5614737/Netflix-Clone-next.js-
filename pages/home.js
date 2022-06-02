@@ -24,6 +24,7 @@ function home({ movies, movies2, movies3, movies4, movies5, movies6 }) {
   const [movie, setMovie] = useState([]);
   const router = useRouter();
 
+
   useEffect(() => {
     if (!localStorage.getItem("token")) {
       router.push("/login");
